@@ -30,7 +30,7 @@ function displayImage(image){
     div.innerHTML = `
      <img src="${image.links[0].href}">
       <p class="font-bold text-lg">${image.data[0].title}</p>
-    <p class="text-xs">${image.data[0].description}</p>
+    <p class="text-xs">${image.data[0]}</p>
     `
     imageResults.appendChild(div);
 
